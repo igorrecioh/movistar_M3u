@@ -18,7 +18,7 @@ with codecs.open("Movistar_List.m3u", "w+", encoding = "utf-8") as f:
         	b = str("rtp://@" + i[0][0].attrib["Address"] + ":" + i[0][0].attrib["Port"] + '\n')
         	f.write(b)
         else:
-        	b = str("NO TIENE IP..."  + '\n')
+        	b = str("rtp://@0.0.0.0:0000"  + '\n')
         	f.write(b)
 
 f.close()
