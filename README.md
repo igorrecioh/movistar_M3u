@@ -1,6 +1,8 @@
 # movistar_M3u (Español)
 Código Python para generar automáticamente un fichero .m3u con los canales de Movistar+ en IPTV
 
+- V0.1: Sólo genera archivo .m3u para clientes del País Vasco
+
 **Importante**
 
 - **Sólo válido en España y para clientes de Movistar+ vía IPTV**
@@ -18,10 +20,12 @@ Código Python para generar automáticamente un fichero .m3u con los canales de 
 1. `sudo python get_xmls.py 239.0.2.168`
 2. Espera hasta que termine el proceso
 3. `sudo python pruebas.py`
-4. Hecho! Tendrs en la misma carpeta un archivo llamado TVM_Eus.m3u
+4. Hecho! Tendrás en la misma carpeta un archivo llamado TVM_Eus.m3u
 
 # movistar_M3u (English version)
 Python code to automatically generate .m3u file with Movistar+ Spain IPTV channels
+
+- V0.1: .m3u file generated includes channels for Basque Country 
 
 **Importante**
 
