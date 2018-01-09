@@ -4,7 +4,7 @@ import codecs
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
-tree = ET.parse('raw_239.0.2.168_2_0.xml')
+tree = ET.parse('/tmp/raw_239.0.2.168_2_0.xml')
 xmldata = tree.getroot()
 xmlstr = tostring(xmldata, encoding='utf-8', method='xml')
 root = ET.fromstring(xmlstr)
